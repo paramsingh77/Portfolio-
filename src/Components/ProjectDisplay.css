@@ -209,13 +209,19 @@ body, html {
 }
 
 @media (max-width: 480px) {
+  .alginment {
+    overflow-x: hidden;
+  }
   .title {
     font-size: 18px;
+    margin-left: 10px;
+  
   }
 
   .card {
     width: 100%;
     height: auto;
+    margin-right: 20px;
   }
 
   .proj-name {
