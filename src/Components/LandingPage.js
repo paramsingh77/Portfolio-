@@ -26,8 +26,15 @@ const LandingPage = () => {
        {/* <video autoPlay loop muted className='backfix'>
        <source src={video} width={100} height={100} type="video/mp4"/>
        </video> */}
-
+    
       <div className='Name white'>
+      <div className='socs'>
+        <ul>
+                <li> <a href="https://www.github.com/paramsingh77">Github</a></li>
+                <li> <a href="https://www.linkedin.com/in/psingh20">LinkedIn</a></li>
+                <li> <a href='https://www.leetcode.com/parmindersingh'>LeetCode</a></li>
+        </ul>
+      </div>
         <div className='headers-options'>
                 <ul>
                     <li><div onClick={()=> handleNavigate('/projects')}>Projects</div></li>
@@ -55,14 +62,13 @@ const LandingPage = () => {
           </div>
           <div className='card-2'>
             <div className='link'>
-              Links
+              Skills
             </div>
             <div className='social-links'>
-              <ul>
-                <li> <a href="https://www.github.com/paramsingh77">Github</a></li>
-                <li> <a href="https://www.linkedin.com/in/psingh20">LinkedIn</a></li>
-                <li> <a href='https://www.leetcode.com/parmindersingh'>LeetCode</a></li>
-               
+              <ul className='text-align'>
+                <li><strong>Programming Languages:</strong> C/C++ , Java , Python , JavaScript</li>
+                <li> <strong>Back End Development:</strong> Node.js, Express, Spring, Flask, CI/CD , jUnit , Rest API</li>
+                <li> <strong>Front End Development:</strong> ReactJS, Redux, Bootstrap (responsive design , UI)I</li>
               </ul>
             </div>
           </div>
