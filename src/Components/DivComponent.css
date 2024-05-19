@@ -1,0 +1,12 @@
+.box {
+    width: 700px;
+    height: 500px;
+    background-color: lightblue;
+    margin: 20px;
+    transition: width 0.5s, height 0.5s; /* CSS transition */
+  }
+  
+  .box.zoom {
+    width: 800px;
+    height: 600px;
+  }

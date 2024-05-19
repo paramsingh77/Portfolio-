@@ -1,0 +1,26 @@
+*{
+  /* background-color: black; */
+}
+
+.algins{
+width: 100%;
+margin-left: 44%;
+margin-top: 25%;
+height: 100vh;
+align-items: center;
+}
+
+.title{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.ak{
+  display: block;
+}
+
+.block{
+  width: 500px;
+}
