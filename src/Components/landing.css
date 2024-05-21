@@ -210,7 +210,9 @@ body, html {
   .name-display {
     font-size: 50px;
   }
-
+  .Name{
+    margin-top: 50px;
+  }
   .headers-options ul li {
     padding: 5px;
     font-size: 20px;
